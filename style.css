@@ -1,0 +1,65 @@
+/*
+http://palbu.ru.ru
+*/
+
+body {
+max-width : 300px;
+margin : 5px auto; 
+color: #black;
+font-family: Tahoma;
+font-size: 14px; 
+border: #6699cc solid 2px;
+}
+a:link, a:active, a:visited {
+ color:#0099ff;
+text-decoration: none;
+font-family: Verdana;
+font-size: 12px;
+}
+a:hover {
+color: #0099ff;
+font-size: 12px;
+text-decoration : underline;
+}
+.head {
+background: #fff;
+padding: 2px 1px 0px 1px; 
+text-align : center; 
+}
+.title {
+height: 20px
+background: #99ccff;
+text-indent: 15pt;
+color: #fff;
+font-weight: bolder;
+background: #99ccff;
+background-image : url(img/title.gif);
+background-repeat : repeat-x; 
+padding: 0px 0px 2px 1px;
+border-width : 1px;
+border-bottom:#6699cc solid 1px;
+border-top:#6699cc solid 1px;
+}
+
+.end {
+background: #fff;
+padding: 2px 1px 0px 1px; 
+text-align : center; 
+}
+.main {
+background-color: #fff;
+padding: 3px 2px 2px 2px;
+}
+.foot {
+background: #99ccff;
+background-image : url(img/bg.gif);
+padding: 3px 2px 2px 2px;
+text-align : center; 
+border-top:#6699cc solid 1px;
+color: #cccccc;
+font-weight: bolder;
+}
+.counts
+{opacity: 0.8;}
+.counts:hover
+{opacity: 1.0;}
