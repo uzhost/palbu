@@ -1,65 +1,75 @@
-/*
-http://palbu.ru.ru
-*/
-
+/* Global Styles */
 body {
-max-width : 300px;
-margin : 5px auto; 
-color: #black;
-font-family: Tahoma;
-font-size: 14px; 
-border: #6699cc solid 2px;
-}
-a:link, a:active, a:visited {
- color:#0099ff;
-text-decoration: none;
-font-family: Verdana;
-font-size: 12px;
-}
-a:hover {
-color: #0099ff;
-font-size: 12px;
-text-decoration : underline;
-}
-.head {
-background: #fff;
-padding: 2px 1px 0px 1px; 
-text-align : center; 
-}
-.title {
-height: 20px
-background: #99ccff;
-text-indent: 15pt;
-color: #fff;
-font-weight: bolder;
-background: #99ccff;
-background-image : url(img/title.gif);
-background-repeat : repeat-x; 
-padding: 0px 0px 2px 1px;
-border-width : 1px;
-border-bottom:#6699cc solid 1px;
-border-top:#6699cc solid 1px;
+    max-width: 300px;
+    margin: 5px auto; 
+    color: #000;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px; 
+    border: 2px solid #6699cc;
+    padding: 0;
 }
 
-.end {
-background: #fff;
-padding: 2px 1px 0px 1px; 
-text-align : center; 
+a:link, a:active, a:visited {
+    color: #0099ff;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
 }
+
+a:hover {
+    color: #0099ff;
+    text-decoration: underline;
+}
+
+/* Header Styles */
+.head {
+    background: #fff;
+    padding: 2px 1px 0; 
+    text-align: center; 
+}
+
+/* Title Styles */
+.title {
+    height: 20px;
+    background: #99ccff;
+    text-indent: 15pt;
+    color: #fff;
+    font-weight: bold;
+    background: #99ccff;
+    background-image: url(img/title.gif);
+    background-repeat: repeat-x; 
+    padding: 0px 0px 2px 1px;
+    border: 1px solid #6699cc;
+}
+
+/* Main Content Styles */
 .main {
-background-color: #fff;
-padding: 3px 2px 2px 2px;
+    background-color: #fff;
+    padding: 3px 2px;
 }
+
+/* Footer Styles */
+.end {
+    background: #fff;
+    padding: 2px 1px 0; 
+    text-align: center; 
+}
+
 .foot {
-background: #99ccff;
-background-image : url(img/bg.gif);
-padding: 3px 2px 2px 2px;
-text-align : center; 
-border-top:#6699cc solid 1px;
-color: #cccccc;
-font-weight: bolder;
+    background: #99ccff;
+    background-image: url(img/bg.gif);
+    padding: 3px 2px;
+    text-align: center; 
+    border-top: 1px solid #6699cc;
+    color: #ccc;
+    font-weight: bold;
 }
-.counts
-{opacity: 0.8;}
-.counts:hover
-{opacity: 1.0;}
+
+/* Counts Styles */
+.counts {
+    opacity: 0.8;
+}
+
+.counts:hover {
+    opacity: 1.0;
+}
